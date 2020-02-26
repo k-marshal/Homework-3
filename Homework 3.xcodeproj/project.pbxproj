@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF429EB123FDF32C001BA029 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FF429EB023FDF32C001BA029 /* background.png */; };
+		FF429EB223FDF401001BA029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF93DB1923F6E9BD0000F0DC /* Assets.xcassets */; };
+		FF429EB323FDF402001BA029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF93DB1923F6E9BD0000F0DC /* Assets.xcassets */; };
 		FF93DB1123F6E9B90000F0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93DB1023F6E9B90000F0DC /* AppDelegate.swift */; };
 		FF93DB1323F6E9B90000F0DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93DB1223F6E9B90000F0DC /* SceneDelegate.swift */; };
 		FF93DB1523F6E9B90000F0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93DB1423F6E9B90000F0DC /* ViewController.swift */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF429EB023FDF32C001BA029 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		FF93DB0D23F6E9B90000F0DC /* Homework 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF93DB1023F6E9B90000F0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF93DB1223F6E9B90000F0DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 				FF93DB2623F6E9BD0000F0DC /* Homework 3Tests */,
 				FF93DB3123F6E9BD0000F0DC /* Homework 3UITests */,
 				FF93DB0E23F6E9B90000F0DC /* Products */,
+				FF429EB023FDF32C001BA029 /* background.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF93DB1D23F6E9BD0000F0DC /* LaunchScreen.storyboard in Resources */,
+				FF429EB123FDF32C001BA029 /* background.png in Resources */,
 				FF93DB1A23F6E9BD0000F0DC /* Assets.xcassets in Resources */,
 				FF93DB1823F6E9B90000F0DC /* Main.storyboard in Resources */,
 			);
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF429EB223FDF401001BA029 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF429EB323FDF402001BA029 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Homework-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "k-marshal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Homework-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "k-marshal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
